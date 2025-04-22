@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+:root[data-theme='light'] {
+    background-color: white;
+    color: black;
+}
+
+:root[data-theme='dark'] {
+    background-color: black;
+    color: white;
+}
+
+:root[data-theme='dark'] i {
+    color: white;
+}
+
+:root[data-theme='light'] i {
+    color: black;
+}
+
+i {
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.header h1 {
+    margin-left: 40%;
+}
+
+main {
+    margin: 25px 0px 0px 50px;
+}
+
+main h1 {
+    font-family: "Open Sans";
+}
+
+main p {
+    font-family: "Open Sans";
+    margin: 25px 0px 25px 0px;
+    width: 379px;
+    justify-content: center;
+}
+
+.technology {
+    margin: 25px 0px 0px 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+img {
+    margin: 25px 0px 25px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+#img2 {
+    margin: 25px 17px 0px 17px;
+}
+
+main a {
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px 0px 0px;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#toggleTheme {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
